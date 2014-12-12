@@ -1,0 +1,1 @@
+<?function pr($v){	echo print_r($v, true);}function dpr($v){	echo print_r($v, true);	die;}function dvd($v){	var_dump($v);	die;}function txtlog($msg){	echo $msg;}function flog($msg){	txtlog($msg);}?>
